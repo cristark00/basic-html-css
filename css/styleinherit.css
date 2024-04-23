@@ -1,0 +1,45 @@
+/*Como se controla el orden al declarar CSS 
+1_ IMPORTANCIA  2_ESPECIFIDAD 3_ORDEN EN LAS FUENTES
+Importancia
+Hoja de estilo de agente de usuario, declaracion normales en hojas estilo de autor, luego decalraciones importantes en hojas de estilos !important
+
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: serif;
+    color: purple;
+    margin-bottom: 40px;
+}
+/*llamando al id  #title */
+
+/*llamando clase*/
+.title{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+.nav li{
+    display: inline-block;
+
+}
+
+.nav a{
+    color: aliceblue;
+    background-color: #13a4a4;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.nav .blog{
+    background-color: red;
+
+}
